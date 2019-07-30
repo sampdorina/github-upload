@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Display Page</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+    <h1>Form Message</h1>
+	<p id="name"></p>
+
+	<script>
+		var fullName = localStorage.getItem("Full Name");
+        var comment = localStorage.getItem("Comment");
+		document.getElementById("name").innerHTML = "Dear " + fullName + "," + " " + comment;
+		
+	</script>
+</body>
+</html>

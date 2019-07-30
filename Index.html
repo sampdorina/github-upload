@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Lady B Luxury Spa</title>
+        <link rel="stylesheet" href="styles.css" type="text/css">
+		 <script type="text/javascript" src="script.js"></script>
+    </head>
+
+    <body>
+        <header>
+         <!--this is for the nav bar-->
+            <nav>
+                <ul id="nav">
+                    <li class="none"><a href="#home">Home</a></li>
+                    <li class="none"><a href="#about">About</a></li>
+                    <li class="none"><a href="#services">Services</a></li>
+                    <li class="none"><a href="#reservations">Reservations</a></li>
+                    <li class="none"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!--this section is for the banner-->
+                  <div>
+                      <figure>
+                      <img src="lady-b-spa-bannar.png" alt="lady-b-spa-bannar" id="home">
+                      </figure>
+                  </div>
+                  
+                  <!--this is the About section-->
+                  <div>
+                      <h3 id="about">About</h3>
+                      <ul>
+                          <li class="about-us">Pedigree</li>
+                          <li class="about-us">Mission</li>
+                          <li class="about-us">Vision</li>
+                      </ul>
+                  </div>
+
+                  <!--this is the services section-->
+                  <div>
+                      <h3 id="services">Services</h3>
+                      
+                      <table class="table">
+                          <tr class="table">
+                              <td class="table">Sauna</td>
+                              <td class="table">N5000</td>
+                          </tr>
+                          <tr class="table">
+                              <td class="table">Manicure</td>
+                              <td class="table">N2000</td>
+                          </tr>
+                          <tr class="table">
+                              <td class="table">Pedicure</td>
+                              <td class="table">N3000</td>
+                          </tr>
+                          <tr class="table">
+                              <td class="table">Massage</td>
+                              <td class="table">N5000</td>
+                          </tr>
+                          <tr class="table">
+                              <td class="table">Facials</td>
+                              <td class="table">N5000</td>
+                          </tr>
+                          <tr class="table">
+                              <td class="table">Fixing Weaves</td>
+                              <td class="table">N3000</td>
+                          </tr>
+                      </table>
+                  </div>
+
+                  <!--this is the reservation section-->
+                  <div>
+                      <h3 id="reservations">Reservations</h3>
+                      
+                          <form action="display-page.html" method="get">
+                            <fieldset>
+                            First Name:
+                              <td><input id="fname" type="text" name="fname" placeholder="Tosin" required><br>
+                           
+                        
+                            Last Name:
+                                <input id="lname" type="text" name="lname" placeholder="Jegede" required><br>
+                        
+                            
+                            Email:
+                              <input type="email" name="email" placeholder="tosinjegede@yahoo.com" required><br>
+                        
+            
+                            Phone Number:
+                              <td><input type="tel" name="phone" pattern="[0-9]{11}" placeholder="08011223344" required><br>
+                                  
+                            Date of Birth:
+                              <input type="date" name="birthday" required><br>
+        
+                              Sex:
+                            
+                                  <input type="checkbox" name="sex1" value="Male">Male
+                                <input type="checkbox" name="sex2" value="Female">Female<br>
+                        
+                    
+                                Select City:
+                            
+                                        <select name="city" size="1">
+                                        <option value="lagos">Lagos</option>
+                                        <option value="abuja">Abuja</option>
+                                        <option value="ibadan">Ibadan</option>
+                                        <option value="uyo">Uyo</option>
+                                        <option value="kano">Kano</option>
+                                </select><br>
+                            
+                                Area of Interest/Service:
+                                    
+                                        <select name="service" size="1">
+                                        <option value="sauna">Sauna</option>
+                                        <option value="manicure">Manicure</option>
+                                        <option value="pedicure">Pedicure</option>
+                                        <option value="massage">Massage</option>
+                                        <option value="facials">Facials</option>
+                                    <option value="fixing">Fixing Weaves</option>
+                                </select><br>
+                            
+        
+                                User Description/Comments:
+                                    <td><input id="comment" type="textarea" name="comment" maxlength="160" placeholder="Enter comment here!"><br>
+                
+                             <button onclick="Submit()">Submit</button>
+                </fieldset>
+             </form>    
+            </div>
+    
+        </main>
+
+        <footer>
+            <span>Copyright &copy; <a href="http://www.andela.com" target="_blank">ALC4 Group 6</a>
+            </span>   
+                
+            <span>We are social.</span>
+            
+            <span id="contact">12, John Paul Street, Greenfield Est.,<br> Ago Palaceway, Okota, Lagos<br>08050895317<br>talk2us@ladybspa.com
+            </span>
+        </footer>
+        
+  </body>
+
+</html>

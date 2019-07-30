@@ -1,0 +1,152 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    width: 70%;
+    margin: auto;
+    padding-top: 40px;
+    background-color: #4D9990;
+  }
+
+div {
+    background-color: #fdecce;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.none {
+    display: inline;
+    text-align: center;
+}
+
+.none a {
+    text-decoration: none;
+    color: #9a1843;
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-size: 1.6em;
+    padding-right: 30px;
+}
+
+.none a:hover {
+    color: #ffffff;
+}
+
+#nav {
+    background-color: #fdecce;
+    padding: 10px;
+    border-radius: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 69%;
+    margin: auto;
+}
+
+figure > img {
+    width: 80%;
+    height: auto;
+    padding-right: 35px;
+}
+
+li.about-us {
+    display: inline-block;
+    color: #9a1843;
+    font-weight: bolder;
+    font-size: 1.3em;
+    margin-bottom: 80px;
+}
+
+li.about-us:nth-child(1){
+    float: left;
+    margin-left: 70px; 
+    }
+
+li.about-us:nth-child(2){
+    clear: both;
+}
+
+li.about-us:nth-child(3){
+    float: right;
+    margin-right: 70px; 
+}
+
+h1, h3 {
+    color: #4d9990;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 25px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.table, td.table {
+    border: 1px solid gray;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td {
+    height: 30px;
+    padding: 5px;
+}
+
+form {
+    padding: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input, select {
+    border-radius: 5px;
+    padding: 2px;
+    margin: 5px;
+}
+
+footer {
+    background-color:#fdecce;
+    border-radius: 10px;
+    color: #9a1843;
+    height: 5em;
+    margin-top: 30px;
+    }
+
+span {
+    display: inline-block;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+footer >span:nth-child(1){
+    float:left;
+    margin-top: 2.3em;
+    margin-left: 2em;
+}
+
+footer >span:nth-child(2){
+    clear:both;
+    margin-top: 2.3em;
+    
+}
+
+footer >span:nth-child(3){
+    float:right;
+    margin-right: 2em;
+    margin-top: 1.3em;
+}
